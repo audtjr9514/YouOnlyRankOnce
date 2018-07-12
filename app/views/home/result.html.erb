@@ -1,0 +1,83 @@
+    <!-- Top-->
+    <h1 class="site-heading text-center text-black d-none d-lg-block">
+      <span class="site-heading-upper text-primary mb-3">Y O R O</span>
+      <span class="site-heading-lower">
+        <span style="color:#e6a756">Y</span>ou <span style="color:#e6a756">O</span>nly <span style="color:#e6a756">R</span>ank <span style="color:#e6a756">O</span>nce!
+      </span>
+    </h1>
+
+    <!-- Banner -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="/#guide">사용법
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="/#yoro_play">YORO사용하기</a>
+            </li>
+      
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!--사용법-->
+    <section class="page-section clearfix">
+      <div class="container" id="guide">
+        <div class="intro">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="/assets/2.jpg" alt="">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <h2 class="section-heading mb-4">
+              <!--<span class="section-heading-upper">YORO</span>-->
+              <span class="section-heading-lower">YORO 사용법</span>
+            </h2>
+            <p class="mb-3">1. 학번을 입력하세요.<br>
+                            2. 생년월일 6자리를 입력하세요.<br>
+                            3. 과목코드를 입력하세요.<br>
+                            </p><br>
+                            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">학점과 등수를 
+              <span style="color:red">확인</span>해보세요!<br><br> 
+              Good <span style="color:#FFBB00">luck</span>~!</span>
+              <a href="/#yoro_play" ><button type="submit" class="btn btn-warning">시작해볼래요!</button></a>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--학생 입력 플랫폼-->
+    <section class="page-section cta" id="page-section cta">
+      <div class="container" id="yoro_play">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-lower"><span style="color:#FFBB00"><%=@myName%></span> 학생의 <span style="color:red"><%=@mySubName%></span>의<br>
+                순위는 <span style="color:red"><%=@rank%></span>위이고<br>
+                현재대로 간다면 <span style="color:red"><%=@myGrade_credit%></span>입니다.</span>
+                
+              </h2>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <center><p><a href="/" class="btn btn-warning" role="button">다시 검색하기</a></p></center>
+    
+    <footer class="footer text-faded text-center py-5">
+      <div class="container">
+        <p class="m-0 small">Copyright &copy; YORO 2018년 멋쟁이사자처럼 뉴비톤<br>
+        대학교육프로세스 3팀<br>
+        프론트엔드 : 김보배(동국대) , 이진규(성결대)<br>
+        백엔드 : 김명석(성공회대) , 이지민(동국대)</p>
+      </div>
+    </footer>
